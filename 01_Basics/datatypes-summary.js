@@ -31,3 +31,27 @@ let newObj = {                                // object
 const myFunction = function(){  // typeof myFunction => object function
     console.log("Hello World")
 }
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack - (Primitive), Heap - (Non-Primitive)
+
+let YTName = "agastyaprincedotcom"
+anothername = YTName
+anothername = "chaiaurcode"
+
+console.log(YTName) // "agastyaprincedotcom"
+console.log(anothername) // "chaiaurcode"
+
+let userOne = {
+    email : "user@google.com";
+    upid : "abs@ybl";
+}
+
+let userTwo = userOne
+
+userTwo.email = "agastya@gmail.com"
+
+console.log(userOne.email) // "agastya@gmail.com"
+console.log(userTwo.email) // "agastya@gmail.com"
